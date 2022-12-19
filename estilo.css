@@ -1,0 +1,81 @@
+*{scroll-behavior: smooth;}
+
+body {
+  background-color: #ffff;
+}
+
+main {
+  background-color: #c9e1f8;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.menu ol {
+  list-style: none;
+  text-align: center;
+}
+
+.itens li {
+  display: inline;
+  margin: 0 30px;
+}
+.itens a {
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid white;
+    text-decoration: none;
+    color: rgb(30, 30, 68);
+    border-radius: 5px;
+    
+}
+.itens a:hover{
+    background-color: white;
+    color: rgb(88, 141, 221);
+    border-color: #000;
+}
+
+.sessaoum {
+  text-align: justify;
+}
+
+.lista {
+  padding: 0 16px;
+}
+
+.lista li {
+  list-style: square;
+  margin: 10px 0;
+}
+
+.lista li::marker {
+  color: white;
+}
+
+table,
+th,
+td {
+  border: solid 1px black;
+  border-collapse: collapse;
+  background-color: #ffff;
+}
+table {
+  float: right;
+}
+
+.recordes {
+  padding: 0 16px;
+}
+
+.recordes li {
+  list-style: square;
+  margin: 10px 0;
+}
+.recordes li::marker {
+  color: white;
+}
